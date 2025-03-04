@@ -20,7 +20,13 @@ Userman Portal adalah aplikasi berbasis web untuk mengelola pengguna dan profil 
    ```
 3. **Konfigurasi file `.env`**:
    ```sh
-   USERMAN_API_URL=http://192.168.1.1/userman-api
+   # Konfigurasi koneksi ke MikroTik Userman
+   MIKROTIK_HOST=192.168.1.1
+   MIKROTIK_USER=admin
+   MIKROTIK_PASSWORD=password_anda
+   MIKROTIK_PORT=8728  # Default API port
+
+   # Secret key untuk JWT
    SECRET_KEY=your_secret_key
    ```
 4. **Jalankan server**:
