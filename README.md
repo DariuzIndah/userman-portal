@@ -11,7 +11,7 @@ Userman Portal adalah aplikasi berbasis web untuk mengelola pengguna dan profil 
 ## 🚀 Instalasi
 1. **Clone repository ini**:
    ```sh
-   git clone https://github.com/username/userman-portal.git
+   git clone https://github.com/DariuzIndah/userman-portal.git
    cd userman-portal
    ```
 2. **Install dependencies**:
